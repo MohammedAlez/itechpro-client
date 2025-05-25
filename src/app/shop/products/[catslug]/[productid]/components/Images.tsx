@@ -32,7 +32,7 @@ export function Images({ product }: { product: Product | undefined }) {
                         {images.map((e, index) => (
                             <SwiperSlide key={e.url}>
                                 <div className="h-[350px] md:h-[450px] w-full rounded-3xl overflow-hidden relative">
-                                    <Image src={`${SERVER_URL + e.url}`} alt='' fill className='object-cover' />
+                                    <Image src={`${e.url}`} alt='' fill className='object-cover' />
                                 </div>
                             </SwiperSlide>
                         ))}
@@ -49,7 +49,7 @@ export function Images({ product }: { product: Product | undefined }) {
                         ${index === activeIndex ? ' outline-gray-400 border-gray-400' : ''}`} // Highlight active thumbnail
                         onClick={() => swiperRef.current?.slideTo(index)} // Scroll to selected image
                     >
-                        <Image src={`${SERVER_URL + e.url}`} alt='' fill className='object-cover' />
+                        <Image src={`${e.url}`} alt='' fill className='object-cover' />
                     </div>
                 ))}
             </div>

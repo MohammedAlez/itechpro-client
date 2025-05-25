@@ -31,12 +31,12 @@ export default function ProductCard({product}:{product:Product}){
 
     return (
         <div className="relative overflow-hidden rounded-3xl bg-[#f6f6f6] p-2 group">
-            <Link href={'/'} className="relative w-full sm:min-h-[200px] min-h-[170px] block">
+            <Link href={'/shop/products/category/'+product.id} className="relative w-full sm:min-h-[200px] min-h-[170px] block">
                 <Image src={product.main_image.url} alt='' fill className="object-cover rounded-3xl bg-gray-200"/>
             </Link>
             <div className="mt-2">
                 {/* <span className="text-gray-500 text-sm inline-block mb-1">Laptops</span> */}
-                <Link href={'/'} className="font-medium  text-sm md:text-lg sm:text-base block mt-2">{product.name}</Link>
+                <Link href={'/shop/products/category/'+product.id} className="font-medium  text-sm md:text-lg sm:text-base block mt-2">{product.name}</Link>
                 <div className="flex gap-2 items-end">
                     <span className="text-green-600 block w-full my-1">{product.price}Da</span>
                     {/* <del className="text-gray-600 text-sm">{product.price}Da</del> */}
