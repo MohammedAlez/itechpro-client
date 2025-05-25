@@ -165,7 +165,7 @@ export default function Footer() {
                             </div>
                             <div>
                                 <p className="font-medium">123 Rue Technologie</p>
-                                <p className="text-sm text-gray-400">Casablanca, Maroc</p>
+                                <p className="text-sm text-gray-400">Algeria</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
