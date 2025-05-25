@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Global/Footer";
 import StateProvider from "@/state/StateProvider";
@@ -10,8 +10,7 @@ import { WebsiteInfoLoading } from "@/components/Global/Loader/WebsiteInfoLoadin
 import { WhatsappGlobalIcon } from "@/components/Global/WhatsappGlobalIcon";
 import Head from "next/head";
 
-
-
+// Font definitions
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,11 +21,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Specify required weights
+});
+
 export const metadata: Metadata = {
   title: "ItechPro",
   description: "Taj Informatique – Des ordinateurs portables performants, alliant puissance et fiabilité pour tous vos besoins.",
 };
-
 
 export default async function RootLayout({
   children,
@@ -54,10 +58,9 @@ export default async function RootLayout({
             `,
           }}
         />
-          {/* <!-- End Meta Pixel Code --> */}
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FDFCFC] text-customBlack`}
+        className={`${montserrat.variable} antialiased bg-[#FDFCFC] text-customBlack`}
       >
         <noscript
           dangerouslySetInnerHTML={{
@@ -67,15 +70,13 @@ export default async function RootLayout({
             `,
           }}
         />
-        <ReactQueryProvider >
+        <ReactQueryProvider>
           <StateProvider>
-            {/* <WebsiteInfoLoading> */}
-                <NavBar type="transparent"/>
-                <Toaster position="top-center" richColors/>
-                {children}
-                <Footer />
-                <WhatsappGlobalIcon />
-            {/* </WebsiteInfoLoading> */}
+            <NavBar type="transparent"/>
+            <Toaster position="top-center" richColors/>
+            {children}
+            <Footer />
+            <WhatsappGlobalIcon />
           </StateProvider>
         </ReactQueryProvider>
       </body>

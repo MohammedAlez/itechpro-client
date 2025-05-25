@@ -104,7 +104,7 @@ export function Testimonials() {
                             <SwiperSlide key={testimonial.name}>
                                 <div className="group relative h-full">
                                     {/* Card */}
-                                    <div className="my-10 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-out p-8 py-16 border border-gray-100 hover:border-primary/30 transform hover:-translate-y-3 hover:scale-[1.01] h-full flex flex-col">
+                                    <div className="my-10 bg-white min-h-[500px] rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-out p-8 py-16 border border-gray-100 hover:border-primary/30 transform hover:-translate-y-3 hover:scale-[0.98] h-full flex flex-col">
                                         {/* Quote icon */}
                                         <div className="absolute top-4 left-8">
                                             <div className="bg-primary text-white p-3 rounded-full shadow-lg transition-transform duration-300 group-hover:scale-110">
@@ -124,7 +124,7 @@ export function Testimonials() {
                                         </div>
 
                                         {/* Review text */}
-                                        <p className="text-gray-700 font-medium leading-relaxed mb-6 text-sm flex-grow">
+                                        <p className="text-gray-700 min-h-[60px] font-medium leading-relaxed mb-6 text-sm flex-grow">
                                             "{testimonial.review}"
                                         </p>
 

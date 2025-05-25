@@ -5,7 +5,7 @@ import Image from "next/image"
 import { useDispatch, useSelector } from "react-redux"
 import { RootState } from "@/state/store"
 // import { usePlaceOrder } from "../../../lib/api"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useFormik } from "formik"
 import * as Yup from 'yup'
 import { resetCart } from "@/state/Cart/cartSlice"
@@ -34,7 +34,9 @@ export function BuyNowForm({buyNowDialog}:{buyNowDialog:boolean}){
         return prev + current.price*current.quantity
     },0)
 
-    const {mutate, isPending, data,error , isError, isSuccess } = usePlaceOrder();
+    const [isPending, setIsPending] = useState(false)
+    const [isSuccess, setIsSuccess] = useState(false)
+    const {mutate, data,error , isError } = usePlaceOrder();
     
     const [cities, setCities] = useState<string[]>([])
     
@@ -49,10 +51,18 @@ export function BuyNowForm({buyNowDialog}:{buyNowDialog:boolean}){
             address:Yup.string().required("L'address est requis"),
             note:Yup.string().optional()
         }),
-        onSubmit:(values)=>{
+        onSubmit:async(values)=>{
             const total_price = total
-            mutate({cart, userInfo:values, total_price})
-            
+            // mutate({cart, userInfo:values, total_price})
+            setIsPending(true)
+            await new Promise((res, _)=>{
+                setTimeout(()=>{
+                    setIsSuccess(true)
+                    setIsPending(false)
+                    res(true)
+
+                },2000)
+            })
         }
     })
     
@@ -79,7 +89,7 @@ export function BuyNowForm({buyNowDialog}:{buyNowDialog:boolean}){
                 <p className="text-gray-700 text-center md:max-w-[650px] mb-3">
                     Votre commande a été passée avec succés
                 </p>
-                <Link href='/shop/categories' className={`inline-flex hover:pl-4 transition-all rounded-3xl overflow-hidden gap-2 items-center w-fit p-4 my- px-4 bg-customBlack hover:bg-black group text-customWhite font-medium `}>
+                <Link href='/shop2' className={`inline-flex hover:pl-4 transition-all rounded-3xl overflow-hidden gap-2 items-center w-fit p-4 my- px-4 bg-customBlack hover:bg-black group text-customWhite font-medium `}>
                     Continuer vos achats
                     <span className={`relative group-hover:left-1 left-0  transition-all`}>
                         <IoIosArrowForward className=""/>

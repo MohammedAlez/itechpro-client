@@ -4,7 +4,7 @@ import ProductCard from "@/components/Global/ProductCard";
 import { useEffect, useState } from "react";
 
 
-const categories = ["PC Components", "Accessories", "Laptops"];
+const categories = ["Laptops", "PC Components", "Accessories", ];
 
 export default function ProductPage() {
   const [selectedCategory, setSelectedCategory] = useState("Laptops");
@@ -56,7 +56,7 @@ export default function ProductPage() {
               before:left-1/2 before:-translate-x-1/2 before:-bottom-4 before:opacity-0
               ${
                 selectedCategory === category
-                  ? "text-primary before:bg-primary before:bottom-1 before:opacity-100"
+                  ? "text-primary before:bg-primary before:bottom-0 before:opacity-100"
                   : "text-gray-500"
               }`}
           >

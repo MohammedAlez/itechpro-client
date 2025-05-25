@@ -36,9 +36,9 @@ export default function ProductCard({product}:{product:Product}){
             </Link>
             <div className="mt-2">
                 {/* <span className="text-gray-500 text-sm inline-block mb-1">Laptops</span> */}
-                <Link href={'/shop/products/category/'+product.id} className="font-medium  text-sm md:text-lg sm:text-base block mt-2">{product.name}</Link>
+                <Link href={'/shop/products/category/'+product.id} className="font-medium  text-sm md:text-lgd sm:text-base block mt-2">{product.name}</Link>
                 <div className="flex gap-2 items-end">
-                    <span className="text-green-600 block w-full my-1">{product.price}Da</span>
+                    <span className="text-green-600 block w-full my-1 font-medium">{product.price}Da</span>
                     {/* <del className="text-gray-600 text-sm">{product.price}Da</del> */}
                 </div>
             </div>

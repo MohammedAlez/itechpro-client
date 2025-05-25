@@ -52,11 +52,11 @@ export function Buttons({product}:{product:Product}) {
                 </div>
             </div>
             <div className="flex-1 flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-4">
-                <button onClick={()=>addToCart(true)} className={`inline-flex justify-center transition-all rounded-3xl overflow-hidden gap-4 items-center w-full p-4 my- px-6 bg-customBlack hover:bg-black group text-customWhite font-medium `}>
+                <button onClick={()=>addToCart(true)} className={`inline-flex justify-center transition-all rounded-3xl overflow-hidden gap-4 items-center w-[300px] p-4 my- px-6 bg-primary hover:opacity-70 group text-customWhite font-medium `}>
                     <BsHandbag size={22}/>
                     Ajouter au panier
                 </button>    
-                <button 
+                {/* <button 
                     onClick={()=>{
                         addToCart(false)
                         setBuyNowDialog(true)
@@ -65,7 +65,7 @@ export function Buttons({product}:{product:Product}) {
                 >
                     <MdOutlinePayment size={22}/>
                     Acheter maintenant
-                </button>    
+                </button>     */}
             </div> 
 
             <div onClick={()=>{
