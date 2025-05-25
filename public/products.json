@@ -1,0 +1,545 @@
+{
+   "products": [
+    {
+      "id": 1,
+      "documentId": "gpu-1",
+      "name": "NVIDIA RTX 4090",
+      "description": "24GB GDDR6X flagship gaming GPU",
+      "price": 1600000,
+      "main_image": { "url": "/images/products/gpu1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 2,
+      "documentId": "cpu-1",
+      "name": "AMD Ryzen 9 7950X3D",
+      "description": "16-core gaming processor with 3D V-Cache",
+      "price": 700000,
+      "main_image": { "url": "/images/products/cpu1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 3,
+      "documentId": "ram-1",
+      "name": "Corsair Dominator Platinum",
+      "description": "32GB DDR5 6000MHz RGB memory",
+      "price": 250000,
+      "main_image": { "url": "/images/products/ram1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 4,
+      "documentId": "ssd-1",
+      "name": "Samsung 990 Pro 2TB",
+      "description": "PCIe 4.0 NVMe gaming SSD",
+      "price": 180000,
+      "main_image": { "url": "/images/products/ssd1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 5,
+      "documentId": "mobo-1",
+      "name": "ASUS ROG Maximus Z790",
+      "description": "Premium Intel gaming motherboard",
+      "price": 500000,
+      "main_image": { "url": "/images/products/mobo1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 6,
+      "documentId": "cooler-1",
+      "name": "NZXT Kraken Z73",
+      "description": "360mm RGB liquid CPU cooler",
+      "price": 280000,
+      "main_image": { "url": "/images/products/cooler1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 7,
+      "documentId": "psu-1",
+      "name": "Corsair RM1000x",
+      "description": "1000W 80+ Gold fully modular PSU",
+      "price": 190000,
+      "main_image": { "url": "/images/products/psu1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 8,
+      "documentId": "case-1",
+      "name": "Lian Li PC-O11 Dynamic",
+      "description": "Premium tempered glass gaming case",
+      "price": 150000,
+      "main_image": { "url": "/images/products/case1.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 9,
+      "documentId": "gpu-2",
+      "name": "AMD Radeon RX 7900 XTX",
+      "description": "24GB GDDR6 gaming GPU",
+      "price": 1000000,
+      "main_image": { "url": "/images/products/gpu2.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 10,
+      "documentId": "cpu-2",
+      "name": "Intel Core i9-13900K",
+      "description": "24-core hybrid gaming processor",
+      "price": 590000,
+      "main_image": { "url": "/images/products/cpu2.jpg" },
+      "images": [],
+      "category": {
+        "id": 1,
+        "name": "PC Components",
+        "image": { "url": "/category-components.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+
+    {
+      "id": 11,
+      "documentId": "keyboard-1",
+      "name": "Razer BlackWidow V4 Pro",
+      "description": "Mechanical gaming keyboard with RGB",
+      "price": 200000,
+      "main_image": { "url": "/images/products/keyboard1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 12,
+      "documentId": "mouse-1",
+      "name": "Logitech G Pro X Superlight",
+      "description": "Ultra-lightweight wireless gaming mouse",
+      "price": 160000,
+      "main_image": { "url": "/images/products/mouse1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 13,
+      "documentId": "headset-1",
+      "name": "SteelSeries Arctis Nova Pro",
+      "description": "Wireless gaming headset with ANC",
+      "price": 350000,
+      "main_image": { "url": "/images/products/headset1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 14,
+      "documentId": "monitor-1",
+      "name": "Samsung Odyssey G9",
+      "description": "49 Dual QHD 240Hz curved gaming monitor",
+      "price": 1500000,
+      "main_image": { "url": "/images/products/monitor1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 15,
+      "documentId": "chair-1",
+      "name": "Secretlab Titan Evo 2022",
+      "description": "Premium ergonomic gaming chair",
+      "price": 550000,
+      "main_image": { "url": "/images/products/chair1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 16,
+      "documentId": "mic-1",
+      "name": "Blue Yeti X",
+      "description": "Premium USB microphone for streaming",
+      "price": 170000,
+      "main_image": { "url": "/images/products/mic1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 17,
+      "documentId": "mousepad-1",
+      "name": "Corsair MM700",
+      "description": "RGB extended gaming mouse pad",
+      "price": 80000,
+      "main_image": { "url": "/images/products/mousepad1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 18,
+      "documentId": "stream-1",
+      "name": "Elgato Stream Deck XL",
+      "description": "32-key studio controller for streamers",
+      "price": 250000,
+      "main_image": { "url": "/images/products/stream1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 19,
+      "documentId": "light-1",
+      "name": "Elgato Key Light Air",
+      "description": "Professional LED panel for streaming",
+      "price": 150000,
+      "main_image": { "url": "/images/products/light1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 20,
+      "documentId": "stand-1",
+      "name": "NZXT Puck",
+      "description": "Magnetic headset holder with cable management",
+      "price": 30000,
+      "main_image": { "url": "/images/products/stand1.jpg" },
+      "images": [],
+      "category": {
+        "id": 2,
+        "name": "Accessories",
+        "image": { "url": "/category-accessories.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 21,
+      "documentId": "laptop-1",
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "14\" gaming laptop with AMD Ryzen 9",
+      "price": 1800000,
+      "main_image": { "url": "/images/products/laptop1.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 22,
+      "documentId": "laptop-2",
+      "name": "Razer Blade 15",
+      "description": "Premium 15.6\" gaming laptop",
+      "price": 2500000,
+      "main_image": { "url": "/images/products/laptop2.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 23,
+      "documentId": "laptop-3",
+      "name": "Alienware x14",
+      "description": "Ultra-thin 14\" gaming laptop",
+      "price": 2200000,
+      "main_image": { "url": "/images/products/laptop3.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 24,
+      "documentId": "laptop-4",
+      "name": "MSI GE76 Raider",
+      "description": "17.3\" high-performance gaming laptop",
+      "price": 2800000,
+      "main_image": { "url": "/images/products/laptop4.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 25,
+      "documentId": "laptop-5",
+      "name": "Lenovo Legion 7",
+      "description": "16\" QHD gaming laptop with RTX 3080",
+      "price": 2400000,
+      "main_image": { "url": "/images/products/laptop5.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 26,
+      "documentId": "laptop-6",
+      "name": "Acer Predator Helios 300",
+      "description": "15.6\" gaming laptop with 240Hz display",
+      "price": 1600000,
+      "main_image": { "url": "/images/products/laptop6.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 27,
+      "documentId": "laptop-7",
+      "name": "ASUS TUF Dash F15",
+      "description": "Thin and light 15.6\" gaming laptop",
+      "price": 1500000,
+      "main_image": { "url": "/images/products/laptop7.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 28,
+      "documentId": "laptop-8",
+      "name": "HP Omen 16",
+      "description": "16.1\" QHD gaming laptop",
+      "price": 1700000,
+      "main_image": { "url": "/images/products/laptop8.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 29,
+      "documentId": "laptop-9",
+      "name": "Gigabyte Aorus 15P",
+      "description": "15.6\" gaming laptop with mechanical keyboard",
+      "price": 1900000,
+      "main_image": { "url": "/images/products/laptop9.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    },
+    {
+      "id": 30,
+      "documentId": "laptop-10",
+      "name": "Dell G15",
+      "description": "15.6\" gaming laptop with 165Hz display",
+      "price": 1400000,
+      "main_image": { "url": "/images/products/laptop10.jpg" },
+      "images": [],
+      "category": {
+        "id": 3,
+        "name": "Laptops",
+        "image": { "url": "/category-laptops.jpg" },
+        "has_subcategories": false
+      },
+      "sub_category": "undefined",
+      "related_products": [],
+      "detailed_description": null
+    }
+   ]
+}

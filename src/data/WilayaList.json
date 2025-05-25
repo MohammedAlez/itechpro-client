@@ -1,0 +1,967 @@
+[
+  {
+    "code": "01",
+    "name": "Adrar",
+    "arabicName": "أدرار",
+    "dairas": [
+      "Adrar",
+      "Reggane",
+      "Timimoun",
+      "Aoulef",
+      "Zaouiet Kounta",
+      "Fenoughil"
+    ]
+  },
+  {
+    "code": "02",
+    "name": "Chlef",
+    "arabicName": "الشلف",
+    "dairas": [
+      "Chlef",
+      "Ténès",
+      "El Karimia",
+      "Ouled Fares",
+      "Boukadir",
+      "Abou El Hassan",
+      "Zeboudja",
+      "Oued Fodda",
+      "Beni Haoua",
+      "Sidi Akkacha",
+      "Taougrit",
+      "El Marsa",
+      "Sendjas"
+    ]
+  },
+  {
+    "code": "03",
+    "name": "Laghouat",
+    "arabicName": "الأغواط",
+    "dairas": [
+      "Laghouat",
+      "Aflou",
+      "Brida",
+      "Ksar El Hirane",
+      "Hassi R'Mel",
+      "Gueltat Sidi Saâd",
+      "Oued Morra",
+      "Oued M'zi",
+      "Sidi Makhlouf",
+      "El Assafia"
+    ]
+  },
+  {
+    "code": "04",
+    "name": "Oum El Bouaghi",
+    "arabicName": "أم البواقي",
+    "dairas": [
+      "Oum El Bouaghi",
+      "Aïn Beïda",
+      "Aïn M'Lila",
+      "Ksar Sbahi",
+      "Aïn Babouche",
+      "Aïn Fakroun",
+      "El Amiria",
+      "El Belala",
+      "Souk Naamane",
+      "Sigus",
+      "Fkirina",
+      "Zorg"
+    ]
+  },
+  {
+    "code": "05",
+    "name": "Batna",
+    "arabicName": "باتنة",
+    "dairas": [
+      "Batna",
+      "Arris",
+      "Barika",
+      "Merouana",
+      "N'Gaous",
+      "Tazoult",
+      "Aïn Touta",
+      "Djezzar",
+      "El Madher",
+      "Seggana",
+      "Timgad",
+      "Ras El Aioun",
+      "Seriana",
+      "Oued El Ma",
+      "T'Kout",
+      "Chemora",
+      "Fesdis",
+      "Ghassira",
+      "Ichmoul",
+      "Khenchela",
+      "Lambèse"
+    ]
+  },
+  {
+    "code": "06",
+    "name": "Béjaïa",
+    "arabicName": "بجاية",
+    "dairas": [
+      "Béjaïa",
+      "Akbou",
+      "Amizour",
+      "Sidi Aïch",
+      "Tazmalt",
+      "Timezrit",
+      "Barbacha",
+      "Darguina",
+      "El Kseur",
+      "Ighil Ali",
+      "Kherrata",
+      "Ouzellaguen",
+      "Souk El Tenine",
+      "Tichy",
+      "Tifra",
+      "Toudja",
+      "Toudja",
+      "Toudja",
+      "Toudja"
+    ]
+  },
+  {
+    "code": "07",
+    "name": "Biskra",
+    "arabicName": "بسكرة",
+    "dairas": [
+      "Biskra",
+      "El Kantara",
+      "M'Chouneche",
+      "Sidi Okba",
+      "Tolga",
+      "Zeribet El Oued",
+      "El Outaya",
+      "Foughala",
+      "Lioua",
+      "Ourlal"
+    ]
+  },
+  {
+    "code": "08",
+    "name": "Béchar",
+    "arabicName": "بشار",
+    "dairas": [
+      "Béchar",
+      "Abadla",
+      "Beni Ounif",
+      "Kenadsa",
+      "Taghit",
+      "Tabelbala"
+    ]
+  },
+  {
+    "code": "09",
+    "name": "Blida",
+    "arabicName": "البليدة",
+    "dairas": [
+      "Blida",
+      "Boufarik",
+      "Bougara",
+      "El Affroun",
+      "Larbaâ",
+      "Mouzaïa",
+      "Oued El Alleug",
+      "Ouled Yaïch",
+      "Meftah",
+      "Chréa"
+    ]
+  },
+  {
+    "code": "10",
+    "name": "Bouira",
+    "arabicName": "البويرة",
+    "dairas": [
+      "Bouira",
+      "Aïn Bessem",
+      "Bechloul",
+      "Bir Ghbalou",
+      "Bordj Okhriss",
+      "El Hachimia",
+      "Haizer",
+      "Kadiria",
+      "Lakhdaria",
+      "M'Chedallah",
+      "Sour El Ghozlane",
+      "Taghzout"
+    ]
+  },
+  {
+    "code": "11",
+    "name": "Tamanrasset",
+    "arabicName": "تمنراست",
+    "dairas": [
+      "Tamanrasset",
+      "Abalessa",
+      "In Guezzam",
+      "In Salah",
+      "Tazrouk",
+      "Tin Zaouatine",
+      "Idles"
+    ]
+  },
+  {
+    "code": "12",
+    "name": "Tébessa",
+    "arabicName": "تبسة",
+    "dairas": [
+      "Tébessa",
+      "Bir El Ater",
+      "Cheria",
+      "El Aouinet",
+      "El Kouif",
+      "El Ma Labiodh",
+      "Morsott",
+      "Negrine",
+      "Ouenza",
+      "Oum Ali",
+      "Bir Mokadem",
+      "Safsaf El Ouesra"
+    ]
+  },
+  {
+    "code": "13",
+    "name": "Tlemcen",
+    "arabicName": "تلمسان",
+    "dairas": [
+      "Tlemcen",
+      "Bab El Assa",
+      "Beni Boussaid",
+      "Beni Snous",
+      "Bensekrane",
+      "Ghazaouet",
+      "Honaine",
+      "Maghnia",
+      "Mansourah",
+      "Nedroma",
+      "Remchi",
+      "Sabra",
+      "Sebdou",
+      "Sidi Djillali",
+      "Sidi El Abed",
+      "Sidi Medjahed",
+      "Sidi Ouriache",
+      "Souahlia",
+      "Terny",
+      "Zenata"
+    ]
+  },
+  {
+    "code": "14",
+    "name": "Tiaret",
+    "arabicName": "تيارت",
+    "dairas": [
+      "Tiaret",
+      "Aïn Deheb",
+      "Dahmouni",
+      "Frenda",
+      "Hamadia",
+      "Ksar Chellala",
+      "Mahdia",
+      "Mechraa Sfa",
+      "Medroussa",
+      "Meghila",
+      "Oued Lili",
+      "Rahouia",
+      "Rechaiga",
+      "Sogueur"
+    ]
+  },
+  {
+    "code": "15",
+    "name": "Tizi Ouzou",
+    "arabicName": "تيزي وزو",
+    "dairas": [
+      "Tizi Ouzou",
+      "Aïn El Hammam",
+      "Azazga",
+      "Beni Douala",
+      "Beni Yenni",
+      "Boghni",
+      "Draâ Ben Khedda",
+      "Draâ El Mizan",
+      "Iferhounène",
+      "Larbaâ Nath Irathen",
+      "Makouda",
+      "Mekla",
+      "Ouaguenoun",
+      "Ouadhia",
+      "Tigzirt",
+      "Tizi Gheniff",
+      "Tizi Rached",
+      "Yakouren",
+      "Azeffoun",
+      "Aït Chafâa",
+      "Aït Yahia"
+    ]
+  },
+  {
+    "code": "16",
+    "name": "Alger",
+    "arabicName": "الجزائر",
+    "dairas": [
+      "Alger Centre",
+      "Bab El Oued",
+      "Bab Ezzouar",
+      "Birkhadem",
+      "Bir Mourad Raïs",
+      "Bordj El Kiffan",
+      "Bordj El Bahri",
+      "Dar El Beïda",
+      "El Harrach",
+      "El Madania",
+      "El Mouradia",
+      "Hussein Dey",
+      "Kouba"
+    ]
+  },
+  {
+    "code": "17",
+    "name": "Djelfa",
+    "arabicName": "الجلفة",
+    "dairas": [
+      "Djelfa",
+      "Aïn El Ibel",
+      "Birine",
+      "Charef",
+      "Dar Chioukh",
+      "El Idrissia",
+      "Faidh El Botma",
+      "Hassi Bahbah",
+      "Messaâd",
+      "M'liliha",
+      "Sidi Baizid",
+      "Tadmit"
+    ]
+  },
+  {
+    "code": "18",
+    "name": "Jijel",
+    "arabicName": "جيجل",
+    "dairas": [
+      "Jijel",
+      "Chekfa",
+      "Djimla",
+      "El Ancer",
+      "El Milia",
+      "Settara",
+      "Taher",
+      "Texenna",
+      "Zerizer",
+      "Bouraoui Belhadef",
+      "Ouled Yahia Khadrouch"
+    ]
+  },
+  {
+    "code": "19",
+    "name": "Sétif",
+    "arabicName": "سطيف",
+    "dairas": [
+      "Sétif",
+      "Aïn Arnat",
+      "Aïn Azel",
+      "Aïn El Kebira",
+      "Amoucha",
+      "Babor",
+      "Beni Aziz",
+      "Beni Ourtilane",
+      "Bir El Arch",
+      "Bougaa",
+      "El Eulma",
+      "Guellal",
+      "Guidjel",
+      "Hammam Guergour",
+      "Hammam Soukhna",
+      "Maoklane",
+      "Ouled Sabor",
+      "Tala Ifacene",
+      "Tizi N'Bechar",
+      "Talaifacene"
+    ]
+  },
+  {
+    "code": "20",
+    "name": "Saïda",
+    "arabicName": "سعيدة",
+    "dairas": [
+      "Saïda",
+      "Aïn El Hadjar",
+      "El Hassasna",
+      "Ouled Brahim",
+      "Sidi Boubekeur",
+      "Youb"
+    ]
+  },
+  {
+    "code": "21",
+    "name": "Skikda",
+    "arabicName": "سكيكدة",
+    "dairas": [
+      "Skikda",
+      "Aïn Kechra",
+      "Azzaba",
+      "Ben Azzouz",
+      "Collo",
+      "El Hadaik",
+      "El Harrouch",
+      "Oum Toub",
+      "Ramdane Djamel",
+      "Salah Bouchaour",
+      "Tamalous",
+      "Zitouna",
+      "Bouchtata"
+    ]
+  },
+  {
+    "code": "22",
+    "name": "Sidi Bel Abbès",
+    "arabicName": "سيدي بلعباس",
+    "dairas": [
+      "Sidi Bel Abbès",
+      "Aïn El Berd",
+      "Ben Badis",
+      "Marhoum",
+      "Mérine",
+      "Mostefa Ben Brahim",
+      "Moulay Slissen",
+      "Ras El Ma",
+      "Sfisef",
+      "Sidi Ali Benyoub",
+      "Sidi Ali Boussidi",
+      "Sidi Lahcène",
+      "Télagh",
+      "Ténira",
+      "Téssala"
+    ]
+  },
+  {
+    "code": "23",
+    "name": "Annaba",
+    "arabicName": "عنابة",
+    "dairas": [
+      "Annaba",
+      "Berrahal",
+      "El Hadjar",
+      "Chetaïbi",
+      "El Bouni",
+      "Aïn El Berda"
+    ]
+  },
+  {
+    "code": "24",
+    "name": "Guelma",
+    "arabicName": "قالمة",
+    "dairas": [
+      "Guelma",
+      "Bouchegouf",
+      "Guelaât Bou Sbaâ",
+      "Héliopolis",
+      "Khezara",
+      "Oued Zenati",
+      "Hammam Debagh",
+      "Aïn Makhlouf",
+      "Hammam N'Bails"
+    ]
+  },
+  {
+    "code": "25",
+    "name": "Constantine",
+    "arabicName": "قسنطينة",
+    "dairas": [
+      "Constantine",
+      "Aïn Abid",
+      "El Khroub",
+      "Hamma Bouziane",
+      "Ibn Ziad",
+      "Zighoud Youcef"
+    ]
+  },
+  {
+    "code": "26",
+    "name": "Médéa",
+    "arabicName": "المدية",
+    "dairas": [
+      "Médéa",
+      "Aïn Boucif",
+      "Aziz",
+      "Béni Slimane",
+      "Berrouaghia",
+      "Chahbounia",
+      "Chellalat El Adhaoura",
+      "El Azizia",
+      "El Omaria",
+      "Guelb El Kébir",
+      "Ksar El Boukhari",
+      "Ouamri",
+      "Ouled Antar",
+      "Ouzera",
+      "Seghouane",
+      "Si Mahdjoub",
+      "Sidi Naâmane",
+      "Souaghi",
+      "Tablat"
+    ]
+  },
+  {
+    "code": "27",
+    "name": "Mostaganem",
+    "arabicName": "مستغانم",
+    "dairas": [
+      "Mostaganem",
+      "Aïn Nouïssy",
+      "Achaacha",
+      "Bouguirat",
+      "Hassi Mamèche",
+      "Khadra",
+      "Mesra",
+      "Sidi Ali",
+      "Sidi Lakhdar",
+      "Touahria"
+    ]
+  },
+  {
+    "code": "28",
+    "name": "M'Sila",
+    "arabicName": "المسيلة",
+    "dairas": [
+      "M'Sila",
+      "Aïn El Hadjel",
+      "Aïn El Melh",
+      "Belaïba",
+      "Ben Srour",
+      "Beni Ilmane",
+      "Bou Saâda",
+      "Chellal",
+      "Djebel Messaâd",
+      "El Hamel",
+      "El Houamed",
+      "Hammam Dalaa",
+      "Khoubana",
+      "Magra",
+      "Medjedel",
+      "Ouled Derradj",
+      "Ouled Sidi Brahim",
+      "Sidi Aïssa",
+      "Sidi Ameur",
+      "Tarmount"
+    ]
+  },
+  {
+    "code": "29",
+    "name": "Mascara",
+    "arabicName": "معسكر",
+    "dairas": [
+      "Mascara",
+      "Aïn Farès",
+      "Aïn Fekan",
+      "Bou Hanifia",
+      "El Bordj",
+      "Ghriss",
+      "Hachem",
+      "Mohammadia",
+      "Oggaz",
+      "Oued El Abtal",
+      "Oued Taria",
+      "Sig",
+      "Tighennif",
+      "Tizi",
+      "Zahana"
+    ]
+  },
+  {
+    "code": "30",
+    "name": "Ouargla",
+    "arabicName": "ورقلة",
+    "dairas": [
+      "Ouargla",
+      "Hassi Messaoud",
+      "N'Goussa",
+      "Rouissat",
+      "Sidi Khouiled",
+      "Témacine",
+      "Touggourt"
+    ]
+  },
+  {
+    "code": "31",
+    "name": "Oran",
+    "arabicName": "وهران",
+    "dairas": [
+      "Oran",
+      "Es Senia",
+      "Bir El Djir",
+      "Arzew",
+      "Gdyel",
+      "Bethioua",
+      "Aïn El Turk",
+      "Boutlélis",
+      "Oued Tlélat"
+    ]
+  },
+  {
+    "code": "32",
+    "name": "El Bayadh",
+    "arabicName": "البيض",
+    "dairas": [
+      "El Bayadh",
+      "Brezina",
+      "Boualem",
+      "Chellala",
+      "El Abiodh Sidi Cheikh",
+      "Rogassa",
+      "Boussemghoun",
+      "Kef Lahmar"
+    ]
+  },
+  {
+    "code": "33",
+    "name": "Illizi",
+    "arabicName": "إليزي",
+    "dairas": [
+      "Illizi",
+      "Djanet",
+      "In Amenas"
+    ]
+  },
+  {
+    "code": "34",
+    "name": "Bordj Bou Arréridj",
+    "arabicName": "برج بوعريريج",
+    "dairas": [
+      "Bordj Bou Arréridj",
+      "Ras El Oued",
+      "Mansoura",
+      "Bir Kasdali",
+      "Bordj Zemoura",
+      "El Hamadia",
+      "Aïn Taghrout",
+      "Tixter",
+      "Djaâfra",
+      "Bordj Ghedir"
+    ]
+  },
+  {
+    "code": "35",
+    "name": "Boumerdès",
+    "arabicName": "بومرداس",
+    "dairas": [
+      "Boumerdès",
+      "Boudouaou",
+      "Bordj Ménaïel",
+      "Dellys",
+      "Naciria",
+      "Thenia",
+      "Isser",
+      "Khemis El Khechna",
+      "Baghlia"
+    ]
+  },
+  {
+    "code": "36",
+    "name": "El Tarf",
+    "arabicName": "الطارف",
+    "dairas": [
+      "El Tarf",
+      "Ben M'Hidi",
+      "Bouhadjar",
+      "Bouteldja",
+      "Drean",
+      "El Kala",
+      "Zerizer"
+    ]
+  },
+  {
+    "code": "37",
+    "name": "Tindouf",
+    "arabicName": "تندوف",
+    "dairas": [
+      "Tindouf"
+    ]
+  },
+  {
+    "code": "38",
+    "name": "Tissemsilt",
+    "arabicName": "تيسمسيلت",
+    "dairas": [
+      "Tissemsilt",
+      "Bordj Emir Abdelkader",
+      "Lardjem",
+      "Theniet El Had",
+      "Ammari",
+      "Beni Chaib",
+      "Beni Lahcene",
+      "Khémisti"
+    ]
+  },
+  {
+    "code": "39",
+    "name": "El Oued",
+    "arabicName": "الوادي",
+    "dairas": [
+      "El Oued",
+      "Bayadha",
+      "Debila",
+      "Guemar",
+      "Hassi Khelifa",
+      "Magrane",
+      "Mih Ouensa",
+      "Robbah",
+      "Reguiba",
+      "Taleb Larbi",
+      "Trifaoui",
+      "Nakhla"
+    ]
+  },
+  {
+    "code": "40",
+    "name": "Khenchela",
+    "arabicName": "خنشلة",
+    "dairas": [
+      "Khenchela",
+      "Aïn Touila",
+      "Babar",
+      "Bouhmama",
+      "Chechar",
+      "El Hamma",
+      "Kais",
+      "M'Sara"
+    ]
+  },
+  {
+    "code": "41",
+    "name": "Souk Ahras",
+    "arabicName": "سوق أهراس",
+    "dairas": [
+      "Souk Ahras",
+      "M'daourouch",
+      "Sedrata",
+      "Taoura",
+      "Oum El Adhaïm",
+      "Mechroha",
+      "Bir Bouhouche",
+      "Hanencha",
+      "Zaarouria",
+      "Ouled Driss"
+    ]
+  },
+  {
+    "code": "42",
+    "name": "Tipaza",
+    "arabicName": "تيبازة",
+    "dairas": [
+      "Tipaza",
+      "Cherchell",
+      "Fouka",
+      "Gouraya",
+      "Hadjout",
+      "Koléa",
+      "Damous",
+      "Sidi Amar",
+      "Ahmer El Ain",
+      "Bou Ismaïl"
+    ]
+  },
+  {
+    "code": "43",
+    "name": "Mila",
+    "arabicName": "ميلة",
+    "dairas": [
+      "Mila",
+      "Tadjenanet",
+      "Chelghoum Laïd",
+      "Ferdjioua",
+      "Grarem Gouga",
+      "Oued Endja",
+      "Sidi Merouane",
+      "Teleghma",
+      "Terrai Bainen",
+      "Aïn Beida Harriche",
+      "Aïn Mellouk",
+      "Aïn Tine",
+      "Bouhatem"
+    ]
+  },
+  {
+    "code": "44",
+    "name": "Aïn Defla",
+    "arabicName": "عين الدفلى",
+    "dairas": [
+      "Aïn Defla",
+      "Miliana",
+      "El Attaf",
+      "Khemis Miliana",
+      "Rouina",
+      "El Abadia",
+      "Bordj Emir Khaled",
+      "Djendel",
+      "Bir Ould Khelifa",
+      "Djelida",
+      "El Amra",
+      "Oued Djemaa",
+      "Hammam Righa",
+      "Aïn Lechiakh"
+    ]
+  },
+  {
+    "code": "45",
+    "name": "Naâma",
+    "arabicName": "النعامة",
+    "dairas": [
+      "Naâma",
+      "Aïn Séfra",
+      "Méchéria",
+      "Moghrar",
+      "Asla",
+      "Sfissifa",
+      "Tiout"
+    ]
+  },
+  {
+    "code": "46",
+    "name": "Aïn Témouchent",
+    "arabicName": "عين تموشنت",
+    "dairas": [
+      "Aïn Témouchent",
+      "Beni Saf",
+      "El Amria",
+      "El Malah",
+      "Hammam Bou Hadjar",
+      "Oulhaca El Gheraba",
+      "Aïn El Arbaa",
+      "Aïn Kihel"
+    ]
+  },
+  {
+    "code": "47",
+    "name": "Ghardaïa",
+    "arabicName": "غرداية",
+    "dairas": [
+      "Ghardaïa",
+      "Berriane",
+      "El Guerrara",
+      "Metlili",
+      "Zelfana",
+      "Mansoura",
+      "Dhayet Bendhahoua"
+    ]
+  },
+  {
+    "code": "48",
+    "name": "Relizane",
+    "arabicName": "غليزان",
+    "dairas": [
+      "Relizane",
+      "Oued Rhiou",
+      "Ammi Moussa",
+      "Mazouna",
+      "Zemmoura",
+      "Yellel",
+      "El Matmar",
+      "Sidi M'Hamed Ben Ali",
+      "Mendes",
+      "Sidi Khettab"
+    ]
+  },
+  {
+    "code": "49",
+    "name": "Timimoun",
+    "arabicName": "تيميمون",
+    "dairas": [
+      "Timimoun",
+      "Aougrout",
+      "Charouine",
+      "Tinerkouk"
+    ]
+  },
+  {
+    "code": "50",
+    "name": "Bordj Badji Mokhtar",
+    "arabicName": "برج باجي مختار",
+    "dairas": [
+      "Bordj Badji Mokhtar",
+      "Timiaouine"
+    ]
+  },
+  {
+    "code": "51",
+    "name": "Ouled Djellal",
+    "arabicName": "أولاد جلال",
+    "dairas": [
+      "Ouled Djellal",
+      "Sidi Khaled",
+      "Ras El Miad"
+    ]
+  },
+  {
+    "code": "52",
+    "name": "Béni Abbès",
+    "arabicName": "بني عباس",
+    "dairas": [
+      "Béni Abbès",
+      "Kerzaz",
+      "Igli",
+      "El Ouata"
+    ]
+  },
+  {
+    "code": "53",
+    "name": "In Salah",
+    "arabicName": "عين صالح",
+    "dairas": [
+      "In Salah",
+      "Foggaret Ezzaouia"
+    ]
+  },
+  {
+    "code": "54",
+    "name": "In Guezzam",
+    "arabicName": "عين قزام",
+    "dairas": [
+      "In Guezzam",
+      "Tin Zaouatine"
+    ]
+  },
+  {
+    "code": "55",
+    "name": "Touggourt",
+    "arabicName": "تقرت",
+    "dairas": [
+      "Touggourt",
+      "Temacine",
+      "Megarine",
+      "Taibet"
+    ]
+  },
+  {
+    "code": "56",
+    "name": "Djanet",
+    "arabicName": "جانت",
+    "dairas": [
+      "Djanet",
+      "Bordj El Haouas"
+    ]
+  },
+  {
+    "code": "57",
+    "name": "El M'Ghair",
+    "arabicName": "المغير",
+    "dairas": [
+      "El M'Ghair",
+      "Djamaa",
+      "Oum Touyour",
+      "Sidi Amrane"
+    ]
+  },
+  {
+    "code": "58",
+    "name": "El Menia",
+    "arabicName": "المنيعة",
+    "dairas": [
+      "El Menia",
+      "Hassi Gara",
+      "Hassi Fehal"
+    ]
+  }
+]

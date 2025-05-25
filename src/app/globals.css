@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "@tailwindcss/typography";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* Detailed description in product page */
+
+.detailed-desc img{
+  margin-inline:auto;
+  max-height:300px;
+  margin-block:0px
+}
+
+@media only screen and (min-width: 600px) {
+  .detailed-desc img{
+    max-height:400px
+  }
+}
