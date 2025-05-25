@@ -15,10 +15,12 @@ export function WhatsappGlobalIcon(){
 
     return (
         <>
-            <Link target="_blank" href={'https://wa.me/'+websiteInfo?.whatsapp_phone_number} 
-                className="fixed bottom-5 right-5 z-[9] bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all flex items-center justify-center text-3xl"
+            <Link 
+            target="_blank" 
+            href={`https://wa.me/${websiteInfo?.whatsapp_phone_number}`}
+            className="fixed bottom-5 right-5 z-[999] bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all flex items-center justify-center text-3xl"
             >
-              <FaWhatsapp size={35}/>
+                <FaWhatsapp size={35}/>
             </Link>
         </>
     )

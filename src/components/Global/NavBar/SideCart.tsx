@@ -32,8 +32,8 @@ export function SideCart(){
                 <BsHandbag size={25}/>
                 <span className="text-white bg-primary absolute -top-0 -right-0 text-sm  flex items-center justify-center rounded-full w-5 h-5">{shoppingCart.length}</span>
             </button>
-            {open && <div onClick={()=>setOpen(false)} className={`bg-black opacity-30 fixed top-0 left-0 w-full h-[100vh] z-40`} />}
-            <div className={`fixed p-3 z-50 transition-all top-0 ${open ? 'right-0' : 'right-[-1000px]'} w-full sm:w-[330px] md:w-[400px] transition h-[100vh] bg-gray-100`}>
+            {open && <div onClick={()=>setOpen(false)} className={`bg-black opacity-30 fixed top-0 left-0 w-full h-[100dvh] z-40`} />}
+            <div className={`fixed p-3 z-50 transition-all top-0 ${open ? 'right-0' : 'right-[-1000px]'} w-full sm:w-[330px] md:w-[400px] transition h-[100dvh] bg-gray-100`}>
             {
                     shoppingCart.length>0 ?
                         <>
